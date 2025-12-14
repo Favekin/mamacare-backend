@@ -7,9 +7,7 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 const model = genAI.getGenerativeModel({ 
   model: "gemini-2.5-flash",
-  config: {
-    systemInstruction: "You are a friendly maternity and pregnancy assistant. Your tone is supportive, informative, and non-judgmental. Always prioritize user safety and provide accurate, general information."
-  }
+
 });
 
 // --- API Route ---
