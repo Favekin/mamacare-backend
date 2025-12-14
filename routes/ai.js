@@ -15,7 +15,6 @@ const model = genAI.getGenerativeModel({
 // --- API Route ---
 
 router.post("/chat", async (req, res) => {
-
   try {
     const { message } = req.body;
 
